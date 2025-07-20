@@ -1,35 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "MusicAlbum",
-  "name": "The Dungeon's Depths",
-  "byArtist": {
-    "@type": "MusicGroup",
-    "name": "Krexx Nv"
-  },
-  "url": "https://your-website-or-page-link.com",
-  "albumRelease": {
-    "@type": "MusicRelease",
-    "datePublished": "2024-05-01",
-    "recordLabel": "Your Label Name"
-  },
-  "numTracks": 10,
-  "track": [
-    {
-      "@type": "MusicRecording",
-      "name": "Track Title 1",
-      "position": 1,
-      "duration": "PT2M50S",
-      "isrcCode": "ISRC1234567890",
-      "url": "https://open.spotify.com/track/your-track-id"
-    },
-    {
-      "@type": "MusicRecording",
-      "name": "Track Title 2",
-      "position": 2,
-      "duration": "PT3M10S",
-      "isrcCode": "ISRC0987654321",
-      "url": "https://open.spotify.com/track/your-track-id"
-    }
-    // Add more tracks...
-  ]
+{{
+  "album_title": "The Dungeons Depths",
+  "artist_name": "Krexx Nv",
+  "release_date": "July 9, 2022",
+  "genre": "Afro fusion / Alternative",
+  "record_label": "Independent",
+  "number_of_tracks": 10,
+  "album_links": {
+    "spotify": "https://open.spotify.com/album/6iZsgyeeJJG2lV9mengGJW?si=VrhQwnfjRKyVX0HxLOZDjw",
+    "boomplay": "https://www.boomplay.com/share/album/111999311?srModel=COPYLINK&srList=IOS",
+    "tidal": "https://tidal.com/browse/album/441412388?u",
+    "youtube_music": "https://music.youtube.com/playlist?list=OLAK5uy_lkPqIrCUqM3ikARTm-A4AA1BJzkLd5wE4&si=NhZ3DRsYUDTuoOGx",
+    "artist_website": "https://krexxnv.com"
+  }
 }
