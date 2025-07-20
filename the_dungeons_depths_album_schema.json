@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MusicAlbum",
+  "name": "The Dungeon's Depths",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "Krexx Nv"
+  },
+  "url": "https://your-website-or-page-link.com",
+  "albumRelease": {
+    "@type": "MusicRelease",
+    "datePublished": "2024-05-01",
+    "recordLabel": "Your Label Name"
+  },
+  "numTracks": 10,
+  "track": [
+    {
+      "@type": "MusicRecording",
+      "name": "Track Title 1",
+      "position": 1,
+      "duration": "PT2M50S",
+      "isrcCode": "ISRC1234567890",
+      "url": "https://open.spotify.com/track/your-track-id"
+    },
+    {
+      "@type": "MusicRecording",
+      "name": "Track Title 2",
+      "position": 2,
+      "duration": "PT3M10S",
+      "isrcCode": "ISRC0987654321",
+      "url": "https://open.spotify.com/track/your-track-id"
+    }
+    // Add more tracks...
+  ]
+}
